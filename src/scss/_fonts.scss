@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'Trueno';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/TruenoRg.eot');
+    src: local('Trueno Regular'), local('TruenoRg'),
+    url('../fonts/TruenoRg.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TruenoRg.woff2') format('woff2'),
+    url('../fonts/TruenoRg.woff') format('woff'),
+    url('../fonts/TruenoRg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Trueno';
+    font-weight: bold;
+    font-style: normal;
+
+    src: url('../fonts/TruenoBd.eot');
+    src: local('Trueno Bold'), local('TruenoBd'),
+    url('../fonts/TruenoBd.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TruenoBd.woff2') format('woff2'),
+    url('../fonts/TruenoBd.woff') format('woff'),
+    url('../fonts/TruenoBd.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Merriweather-Regular.eot');
+    src: local('Merriweather'), local('Merriweather-Regular'),
+    url('../fonts/Merriweather-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Merriweather-Regular.woff2') format('woff2'),
+    url('../fonts/Merriweather-Regular.woff') format('woff'),
+    url('../fonts/Merriweather-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-weight: normal;
+    font-style: italic;
+
+    src: url('../fonts/Merriweather-Italic.eot');
+    src: local('Merriweather Italic'), local('Merriweather-Italic'),
+    url('../fonts/Merriweather-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Merriweather-Italic.woff2') format('woff2'),
+    url('../fonts/Merriweather-Italic.woff') format('woff'),
+    url('../fonts/Merriweather-Italic.ttf') format('truetype');
+}
+
+$sans: 'Trueno', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$serif: 'Merriweather', serif;
+$mono: 'Courier New', monospace;
+
+body {
+    font-family: $serif;
+}
+
+
+h1,
+h2 {
+    font-family: $sans;
+    font-weight: bold;
+}
+
+h3,
+h4 {
+    font-family: $sans;
+    font-weight: normal;
+}
