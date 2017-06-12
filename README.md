@@ -1,8 +1,6 @@
 # e.
 
-This is the code for [jakerunzer.xyz](http://jakerunzer.xyz). It is written in [Elm](http://elm-lang.org/) and also serves as a nice Elm + Webpack template.
-
-This is the code for my experiments site. The website is self is made with [Elm](http://elm-lang.org/). The experiments with [p5js](https://p5js.org/)
+This is the code for my experiments site. The website is self is made with [Elm](http://elm-lang.org/). The experiments with [p5js](https://p5js.org/).
 
 ## Development ✨
 
