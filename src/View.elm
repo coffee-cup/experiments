@@ -191,7 +191,7 @@ A collection of fun little experiments I've made
  browser, although they will work fine on mobile.
 """
             , text "The code can be found "
-            , a [ href "https://github.com/coffee-cup/jakerunzer-xyz/tree/master/src/P5/scripts" ] [ text "on Github" ]
+            , a [ href "https://github.com/coffee-cup/experiments" ] [ text "on Github" ]
             , text "."
             ]
         , experimentList
