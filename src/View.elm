@@ -38,9 +38,12 @@ page model =
 
 footer : Html Msg
 footer =
-    div [ class "footer pb4" ]
+    div [ class "footer pv4" ]
         [ p [ class "f5" ]
-            [ a [ onClick ShowHome, class "dim none pointer" ] [ text "♥" ]
+            [ text "Made with "
+            , span [ class "heart" ] [ text "♥" ]
+            , text " by "
+            , a [ href "https://jakerunzer.xyz" ] [ text "jakerunzer" ]
             ]
         ]
 
