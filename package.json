@@ -1,5 +1,5 @@
 {
-  "name": "elm-template",
+  "name": "experiments",
   "version": "1.0.0",
   "description": "Static website template using Elm.",
   "main": "index.js",
@@ -15,7 +15,6 @@
     "prebuild": "npm run clean",
     "postbuild": "npm run pages && npm run copy",
     "predeploy": "npm run build",
-    "deploy": "surge build/ https://coffee-cup-elm-template.surge.sh",
     "heroku-postbuild": "npm run build",
     "test": "echo \"Error: no test specified\""
   },
