@@ -43,7 +43,7 @@ footer =
             [ text "Made with "
             , span [ class "heart" ] [ text "♥" ]
             , text " by "
-            , a [ href "https://jakerunzer.xyz" ] [ text "jakerunzer" ]
+            , a [ href "https://jakerunzer.com" ] [ text "jakerunzer" ]
             ]
         ]
 
